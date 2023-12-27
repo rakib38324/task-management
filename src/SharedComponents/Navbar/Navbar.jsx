@@ -19,7 +19,7 @@ const Navbar = () => {
       <li className="block p-1 text-sm leading-normal text-inherit antialiased"><NavLink to="/about">About Us</NavLink></li>
    </>
    return (
-      <div className="navbar bg-slate-300 rounded-b-xl shadow-xl mb-4">
+      <div className="navbar bg-gray-700 rounded-b-xl shadow-xl mb-4">
          <div className="navbar-start">
             <div className="dropdown">
                <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

@@ -42,8 +42,8 @@ const SocialLogin = () => {
    }
    return (
       <div className="flex justify-center my-5 w-full gap-x-5">
-         <div className="rounded-full text-4xl bg-slate-300 btn w-1/4" onClick={handleGoogleSignIn}><FcGoogle></FcGoogle></div>
-         <div className="rounded-full btn text-4xl bg-slate-300 w-1/4" onClick={handleGithubSignIn}><FaGithub className="text-black"></FaGithub></div>
+         <div className="rounded-full text-4xl mx-auto  w-1/4 cursor-pointer" onClick={handleGoogleSignIn}><FcGoogle></FcGoogle></div>
+         <div className="rounded-full  text-4xl  w-1/4 cursor-pointer" onClick={handleGithubSignIn}><FaGithub className="text-black"></FaGithub></div>
       </div>
    );
 };
